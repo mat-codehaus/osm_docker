@@ -1,4 +1,4 @@
-FROM pinmj001/osm_docker
+FROM homme/openstreetmap-tiles:latest
 
 RUN mkdir /etc/ssl/private-copy
 RUN mv /etc/ssl/private/* /etc/ssl/private-copy/
